@@ -1,30 +1,52 @@
-Project Overview: The goal was to create a series of dashboards that offer a 360-degree view of our bank’s loan portfolio. By leveraging the capabilities of MS SQL Server for data management and Power BI for dynamic visualization, we’ve developed an end-to-end solution that tracks and analyzes critical loan metrics, helping our team make informed, data-driven decisions.
+# Bank Loan Analysis Project
+## Project Overview
+The Bank Loan Analysis Project is a comprehensive analytics initiative focused on improving loan performance and optimizing lending strategies. By analyzing key metrics such as loan status, funded amounts, interest rates, and borrower risk profiles, this project provides data-driven insights to enhance decision-making in lending operations.
 
-Key Features and Insights:
+## Dataset
+The dataset includes 38,500 fields covering various loan-related attributes:
+Loan Details: Loan amounts, interest rates, debt-to-income (DTI) ratios, and terms.
+Borrower Information: Employment length, loan purpose, and home ownership.
+Geographic Data: Loan location and regional trends.
+Loan Status: Distinction between "Good Loans" and "Bad Loans" based on repayment status.
 
+## Project Objectives
+Develop dynamic dashboards to monitor loan performance and lending activities.
+Track critical KPIs to assess the health and risk of the loan portfolio.
+Identify high-performing loans and regions with potential growth or risk.
+Empower stakeholders with interactive, real-time loan insights.
+
+## Tools & Technologies
+MS SQL Server: Data storage, querying, and preparation.
+Power BI: Visualizations and interactive dashboards for actionable insights.
+
+## Project Highlights
+### MS SQL Server
+Data Preparation: Processed and transformed data into structured tables for easy querying.
+Key Queries:
+Revenue by Loan Status: Calculated total funded and received amounts for Good and Bad Loans.
+Debt-to-Income (DTI) Analysis: Assessed DTI to predict borrower risk profiles.
+Regional Loan Trends: Analyzed loan performance across states to identify regional lending patterns.
+
+### Power BI Dashboards
 Summary Dashboard:
 
-Total Loan Applications: Monitors the total number of loan applications, with breakdowns for Month-to-Date (MTD) and Month-over-Month (MoM) trends.
-Total Funded Amount & Amount Received: Provides a clear view of the funds disbursed and received, enabling us to assess cash flow and lending performance.
-Average Interest Rate & Debt-to-Income Ratio (DTI): Tracks these crucial indicators to evaluate loan profitability and borrower risk profiles.
+Monitors loan applications, funded amounts, and MoM trends.
+Provides insight into total funded vs. received amounts for assessing cash flow.
+Tracks average interest rate and DTI ratio to gauge loan profitability.
 Good Loan vs. Bad Loan KPIs:
 
-Differentiates between ‘Good Loans’ and ‘Bad Loans,’ offering insights into application success rates, funded amounts, and received payments. This analysis is vital for understanding the quality of our loan portfolio and mitigating risks.
+Differentiates between performing and non-performing loans.
+Highlights key metrics for application success, funding rates, and payment trends.
 Loan Status Grid View:
 
-Provides a detailed, categorized overview of loan statuses, helping us quickly identify patterns and make data-driven adjustments to our lending practices.
+Presents a categorized view of loan statuses for quick identification of patterns.
+Offers a comprehensive look at loan quality and payment progress.
 Overview Dashboard:
 
-Monthly Trends: Analyzes trends in loan applications, funded amounts, and amounts received over time, revealing seasonal patterns and long-term trajectories.
-Regional Analysis: Breaks down lending metrics by state, helping us identify regional disparities and tailor our strategies accordingly.
-Loan Term, Employee Length, Loan Purpose, and Home Ownership Analysis: These insights enable us to better understand our borrowers’ profiles and how various factors influence lending outcomes.
-Details Dashboard:
+Breaks down loan data by region, loan purpose, and borrower attributes.
+Analyzes monthly trends in applications, funding, and repayment.
 
-Consolidates all essential loan data into an intuitive, user-friendly interface, making it easier for stakeholders to access critical information and gain a comprehensive view of the bank’s loan portfolio.
-Technology Stack: To bring this project to life, I utilized MS SQL Server for creating the necessary data structures, followed by Power BI to design and implement the dashboards. These tools allowed us to seamlessly integrate data, visualize trends, and create an impactful narrative around our bank’s lending activities.
-
-Impact and Benefits: This project has empowered our team with the ability to:
-
-Identify and address trends early, ensuring proactive management of our loan portfolio.
-Distinguish between high and low-performing loans, allowing for more targeted lending strategies.
-Enhance decision-making with a clear view of critical metrics, from borrower profiles to regional lending trends.
+## Key Results
+Enhanced loan risk management by analyzing DTI and loan quality.
+Identified profitable loan products, aiding in tailored marketing strategies.
+Improved loan approval efficiency through regional and demographic trend insights.
